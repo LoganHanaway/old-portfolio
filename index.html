@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!-- Logan Hanaway Portfolio Project Extravaganza 2: Electric Boogaloo-->
+<!-- home page -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Digital Projects | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+        rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.scss">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<div id="example"></div>
+
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half top"></div>
+            <div class="bar"></div>
+            <div class="bar half bottom"></div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li>
+                    <a href="#aboutme" class="nav-link">ABOUT ME</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">PROJECTS</a>
+                </li>
+                <li>
+                    <a href="#photography" class="nav-link">PHOTOGRAPHY</a>
+                </li>
+                <!-- <li>
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li> -->
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="wrapper">
+            <div id="title" class="fadeonload">
+                <div id="centeredwelcome">
+                    <!-- <a href="index.html"><img id="logo" src="images/logo.jpg" alt="logo" class="center2"></a> -->
+                    <div id="hello">
+                        <p>Hello, I'm
+                            <span> Logan Hanaway</span>.
+                        </p>
+                        <p>I'm a full stack web developer</p>
+                        <p>and photographer.
+                        </p>
+                        <button class="workButton" dest="#portfolio" role="button"
+                            onclick="window.location.href='#portfolio'">View my work</button>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="aboutmebackground">
+                <div id="aboutme" class="fadein">
+                    <br>
+                    <br>
+                    <h1>ABOUT ME</h1>
+                    <div class="contentBars"></div>
+                    <br>
+                    <a href="images/me.jpg"><img class="me" src="images/me.JPG" alt="photo of me"></a>
+                    <p>I'm a Kansas City based freelance full-stack web developer and I would love to help you with your
+                        project. Currently, I do all web related jobs and specialize in HTML5/CSS3, JavaScript, JQuery,
+                        PHP, SQL, and Python. I can
+                        build any website, from huge dynamic apps to small static sites, on any budget. See my work
+                        below.</p>
+                    <p>Being a full stack developer, I can develop any website from a database driven web app to a small
+                        static site. Every custom website built uses higher grade techniques and is fast, mobile
+                        friendly, scalable.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div id="languages">
+                        <ul id="technologies">
+                            <li><img class="techphotos" src="techphotos/html5.png"></li>
+                            <li><img class="techphotos" src="techphotos/css3.png"></li>
+                            <li><img class="techphotos" src="techphotos/javascript.png"></li>
+                            <li><img class="techphotos" src="techphotos/jquery.png"></li>
+                            <li><img class="techphotos" src="techphotos/php2.png"></li>
+                            <li><img class="techphotos" src="techphotos/mysql.png"></li>
+                            <li><img class="techphotos" src="techphotos/python.png"></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div id="statements">
+                        <h2>Beautiful Code</h2>
+                        <p>I write clean, semantic, organized, and valid markup that eliminates excess code and allows
+                            others to easily understand and therfore update content in the future.</p>
+                        <h2>Fast</h2>
+                        <p>I build fast and efficient web sites. Fast websites always attract more visitors, and those
+                            visitors are more likely to choose you over the competition. In addition, website speed is
+                            essential for SEO — faster websites rank higher.</p>
+                        <h2>Responsive</h2>
+                        <p>Responsive web design means that your website will work on any screen size, from desktops to
+                            mobile phones alike. Having a website that works well across all devices and screen sizes
+                            means your website has a broader reach, appealing to more visitors.</p>
+                        <h2>Powerful</h2>
+                        <p>From a static single page website to a full fledged database driven web app, I build websites
+                            that give your organization the potential to succeed.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="portfoliobackground">
+                <div id="portfolio" class="fadein">
+                    <h1>PROJECTS</h1>
+                    <div class="contentBars2"></div>
+                    <br>
+                    <br>
+                    <br>
+                    <div id="project_grid">
+                        <div class="project">
+                            <!-- <h3>Neon party decision making app</h3> -->
+                            <div class="project__card">
+                                <a href="http://students.jccc.edu/lhanaway/css2/122final/index.html"
+                                    class="project__image"><img src="images/decisions.jpg" width=400 height=400
+                                        alt="Pros and Cons Web App"></a>
+                                <div class="project__detail">
+                                    <h2 class="project__title"><a href="#">Pros and Cons Web App</a></h2>
+                                    <small class="project__category"><a href="#">CSS 2</a></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <!-- <h3>Search for a movie to see its info</h3> -->
+                            <div class="project__card">
+                                <a href="https://codepen.io/loganhanaway/pen/MWQwYop?editors=1010"
+                                    class="project__image"><img src="images/OMDBmoviesapp.JPG" width=400 height=400
+                                        alt="OMDB movie search app"></a>
+                                <div class="project__detail">
+                                    <h2 class="project__title"><a href="#">OMDB movie search tool</a></h2>
+                                    <small class="project__category"><a href="#">Javascript</a></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <!-- <h3>Oops! Site visitable when I can find the files...</h3> -->
+                            <div class="project__card">
+                                <a href="images/pacific.jpg" class="project__image"><img src="images/pacific.jpg"
+                                        width=400 height=400 alt="Resort Home Page"></a>
+                                <div class="project__detail">
+                                    <h2 class="project__title"><a href="#">Resort Home Page</a></h2>
+                                    <small class="project__category"><a href="#">CSS 1</a></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <!-- <h3>DragonFly Tea Zone Redesign (images coming soon)</h3> -->
+                            <div class="project__card">
+                                <a href="images/placeholder.jpg" class="project__image"><img
+                                        src="images/placeholder.jpg" width=400 height=400 alt="placeholder"></a>
+                                <div class="project__detail">
+                                    <h2 class="project__title"><a href="#">DragonFly Tea Zone Redesign</a></h2>
+                                    <small class="project__category"><a href="#">DragonFly Tea Zone
+                                            Redesign</a></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <!-- <h3>DragonFly Tea Zone Redesign (images coming soon)</h3> -->
+                            <div class="project__card">
+                                <a href="images/placeholder.jpg" class="project__image"><img
+                                        src="images/placeholder.jpg" width=400 height=400 alt="placeholder"></a>
+                                <div class="project__detail">
+                                    <h2 class="project__title"><a href="#">placeholder</a></h2>
+                                    <small class="project__category"><a href="#">placeholder</a></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <!-- <h3>DragonFly Tea Zone Redesign (images coming soon)</h3> -->
+                            <div class="project__card">
+                                <a href="images/placeholder.jpg" class="project__image"><img
+                                        src="images/placeholder.jpg" width=400 height=400 alt="placeholder"></a>
+                                <div class="project__detail">
+                                    <h2 class="project__title"><a href="#">placeholder</a></h2>
+                                    <small class="project__category"><a href="#">placeholder</a></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="photographybackground">
+                <div id="photography" class="fadein2">
+                    <h1>PHOTOGRAPHY</h1>
+                    <div class="contentBars3"></div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="gallery">
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio14.jpg" data-text="Explore">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio10.jpg" data-text="Sinkhole">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio1.jpg" data-text="Caribou">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio6.jpg" data-text="Sail">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/festival.jpg" data-text="Festival">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio3.jpg" data-text="Late Stage">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/BlackBearPass.jpg" data-text="Black Bear Pass">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio4.jpg" data-text="Skagway Docks">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio12.jpg" data-text="Warmth">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio7.jpg" data-text="Action">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio13.jpg" data-text="Lonliness">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio2.jpg" data-text="Vast">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio15.jpg" data-text="Depth">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/portfolio16.jpg" data-text="Color">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/alaska.jpg" data-text="Runoff">
+                        </div>
+                        <div class="galleryItem card">
+                            <img class="photos" src="images/reef surfer.jpg" data-text="Reef Surfing">
+                        </div>
+                        <!-- <div class="galleryItem card">
+                        <img class="photos" src="images/bunker.jpg" data-text="Bunker">
+                    </div>
+                    <div class="galleryItem card">
+                        <img class="photos" src="images/portfolio11.jpg" data-text="Structure">
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="100" width="100%" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+                <path d="M0 0 L50 100 L100 0 Z" fill="rgba(255, 255, 255)" stroke="rgba(255, 255, 255, 0.9)">
+                </path>
+            </svg>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="contact">
+                <div class="background">
+                    <div class="container">
+                        <div class="screen">
+                            <div class="screen-header">
+                                <div class="screen-header-left">
+                                    <div class="screen-header-button close"></div>
+                                    <div class="screen-header-button maximize"></div>
+                                    <div class="screen-header-button minimize"></div>
+                                </div>
+                                <div class="screen-header-right">
+                                    <div class="screen-header-ellipsis"></div>
+                                    <div class="screen-header-ellipsis"></div>
+                                    <div class="screen-header-ellipsis"></div>
+                                </div>
+                            </div>
+                            <div class="screen-body">
+                                <div class="screen-body-item left">
+                                    <div class="app-title">
+                                        <span>WANT TO WORK</span>
+                                        <span>TOGETHER?</span>
+                                    </div>
+                                    <div class="app-contact">CONTACT INFO : 913-904-2486</div>
+                                </div>
+                                <div class="screen-body-item">
+                                    <div class="app-form">
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="NAME">
+                                        </div>
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="EMAIL">
+                                        </div>
+                                        <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="CONTACT NO">
+                                        </div>
+                                        <div class="app-form-group message">
+                                            <input class="app-form-control" placeholder="MESSAGE">
+                                        </div>
+                                        <div class="app-form-group buttons">
+                                            <button class="app-form-button">CANCEL</button>
+                                            <button class="app-form-button">SEND</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="#" class="scrollToTop"><img src="top.png"></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="sociallinks">
+            <ul id="social-icons">
+                <li><a href="index.html"><img class="socials" src="social icons/facebook.png"></a></li>
+                <li><a href="https://github.com/LoganHanaway"><img class="socials" src="social icons/github.png"></a>
+                </li>
+                <li><a href="https://codepen.io/loganhanaway"><img class="socials" src="social icons/codepen.png"></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/loganhanaway14/"><img class="socials"
+                            src="social icons/linkedin.png"></a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div class="footnote">
+            LOGAN HANAWAY <span class="highlight">&copy;2022</span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </footer>
+
+
+
+
+</body>
+
+<script src="polygon.js"></script>
+<script src="3DHover.js"></script>
+<script src="slide.js"></script>
+
+
+</html>
